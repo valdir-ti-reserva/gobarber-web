@@ -1,6 +1,4 @@
 import styled, { keyframes } from 'styled-components';
-import { shade } from 'polished';
-
 import signInBackground from '../../assets/sign-in-background.png';
 
 export const Container = styled.div`
@@ -52,10 +50,6 @@ export const AnimationContainer = styled.div`
       margin-top: 24px;
       text-decoration: none;
       transition: color 0.2s;
-
-      &:hover {
-        background: ${shade(0.2, '#f4ede8')};
-      }
     }
   }
 
@@ -70,10 +64,6 @@ export const AnimationContainer = styled.div`
 
     svg {
       margin-right: 16px;
-    }
-
-    &:hover {
-      background: ${shade(0.2, '#ff9000')};
     }
   }
 `;
